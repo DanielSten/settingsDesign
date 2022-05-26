@@ -1,0 +1,205 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+body{
+    font-family: Manrope;
+}
+.flex{
+    display: flex;
+}
+.contant_container{
+    width: 780px;
+    margin: 30px auto;
+}
+.block_selection_start{
+    margin-bottom: 40px;
+}
+.dropdown_block{
+    border: 1px solid #A1A1A1;
+    border-radius: 8px;
+    width: 240px;
+    height: 48px;
+    justify-content:space-between;
+}
+.block_name{
+    padding: 12px;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.0168em;
+    color: black;
+}
+.bx{
+    font-size: 9px;
+    color: #616161;
+}
+.arrow_down{
+    margin: 16px 21px;
+}
+.dropdown_block_amenities{
+    width: 460px;
+    margin-left: 80px;
+}
+.dropdown_block_blue_border{
+    border: 1.5px solid #5096F1;
+}
+.bxs-up-arrow{
+    color: #1672EC;
+}
+.block_name_tittle{
+    position: absolute;
+    padding: 2px 4px;
+    margin-left: 8px;
+    background-color: white;
+    top: 106px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+}
+
+
+.block_desir_amenites{
+    min-height: 54px;
+    padding: 6px;
+    margin-bottom: 40px;
+    border: 1px solid #A1A1A1;
+    border-radius: 8px;
+}
+.block_pick_amenities{
+    flex-wrap:wrap;
+}
+.block_pick_amenities_name{
+    font-weight: 400;
+    font-size: 14px;
+    padding: 8px 14px;
+    background-color: #E0E0E0;
+    margin: 6px;
+    border-radius: 4px;
+}
+.block_pick_amenities_name.active{
+    background-color: #616161;
+    color: #E0E0E0;
+    font-weight: 700;
+}
+.block_cross{
+    margin: 0 5px 0 40px;
+    display: flex;
+    align-items: center;
+}
+.bx-x{
+    font-size: 30px;
+    color: #D4B011;
+}
+
+.dropdown_list{
+    box-shadow: 0px 2px 4px rgba(97, 97, 97, 0.18), 0px 4px 8px rgba(97, 97, 97, 0.18);
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin-top: 8px;
+}
+.dropdown_list_item{
+    margin-bottom: 24px;
+    height: 34px;
+}
+.dropdown_list_item:last-child{
+    margin-bottom: 0;
+}
+.block_dropdown_list_check{
+    height: 22px;
+    width: 22px;
+    border: 2px solid #818181;
+    border-radius: 4px;
+    margin: 5px;
+}
+.dropdown_list_item.active .block_dropdown_list_check{
+    background-color: #0F56B3;
+    border: 2px solid #0F56B3;
+}
+.dropdown_list_item.active .block_dropdown_list_check_background{
+    background-color: #C5DCFA50;
+    max-height: 32px;
+    border-radius: 4px;
+}
+.dropdown_list_item.active .block_dropdown_list_name{
+    font-weight: 700;
+}
+.block_dropdown_list_extended{
+    margin-left: 16px;
+    position: relative;
+    bottom: 8px;
+}
+.block_dropdown_list_extended_selected{
+    color: #1672EC;
+    margin-top: 3px;
+}
+.block_dropdown_list_extended_name{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+}
+.bx-check{
+    font-size: 24px;
+    color: white;
+    position: relative;
+    bottom: 3px;
+    right: 3px;
+}
+.block_dropdown_list_name{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    padding: 5px 0;
+    margin-left: 16px;
+}
+.block_name_tittle_position{
+    top: 286px;
+}
+.dropdown_list_amentities{
+    margin: 0 18px;
+}
+.dropdown_list_item.amentities{
+    margin-bottom: 16px;
+}
+
+.dropdown_block_amenities_bottom_clarification{
+    margin: 6px 6px;
+    padding: 26px 12px 0 12px;
+    border-top: 1px solid #E0E0E0;
+}
+.block_dropdown_list_name span{
+    font-weight: 700;
+    color: #1672EC;
+}
+.window_search{
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    margin: 16px 6px 20px;
+}
+.icon_loupe{
+    padding: 10px 10px 9px;
+    margin: 0 5px;
+    background-color: white;
+}
+.bx-search{
+    font-size: 18px;
+}
+
+input{
+    width: 100%;
+}
