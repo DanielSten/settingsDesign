@@ -129,10 +129,14 @@ body{
 }
 .dropdown_list_item.active .block_dropdown_list_check{
     background-color: #0F56B3;
-    border: 2px solid #0F56B3;
+}
+input[type=checkbox] {
+    border: 2px solid #818181;
+}
+input[type="checkbox"]:checked {
+    outline: 5px solid #C5DCFA50;
 }
 .dropdown_list_item.active .block_dropdown_list_check_background{
-    background-color: #C5DCFA50;
     max-height: 32px;
     border-radius: 4px;
 }
@@ -140,13 +144,13 @@ body{
     font-weight: 700;
 }
 .block_dropdown_list_extended{
-    margin-left: 16px;
     position: relative;
     bottom: 8px;
 }
 .block_dropdown_list_extended_selected{
     color: #1672EC;
     margin-top: 3px;
+    margin-left: 16px;
 }
 .block_dropdown_list_extended_name{
     font-weight: 700;
