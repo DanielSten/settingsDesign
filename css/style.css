@@ -199,7 +199,10 @@ body{
 .bx-search{
     font-size: 18px;
 }
-
-input{
+.window_search form{
+    width: 100%;
+    margin-right: 5px;
+}
+.window_search input{
     width: 100%;
 }
